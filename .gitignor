@@ -137,3 +137,5 @@ images/
 bin/
 /obj
 obj/
+.bin
+.obj
