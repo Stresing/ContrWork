@@ -2,17 +2,18 @@
 {
     Console.Write("[" + string.Join(", ", collection) + "]");
 }
-
+Console.Clear();
 Console.Write("Сколько строк вы хотите внести в массив? ");
 int cellMemory = int.Parse(Console.ReadLine());
 string[] array = new string[cellMemory];
 
-for (int i = 0; i < cellMemory; i++)
+for (int i = 0; i < cellMemory; i++) // запись строк в массив
 {
     Console.Write("Введите строку и нажмите Enter: ");
     string? str = Console.ReadLine();
     array[i] = str;
 }
+Console.Clear();
 Console.Write("Созданный вами массив: ");
 PrintArray(array);
 int amount = 0;
