@@ -133,5 +133,7 @@ $RECYCLE.BIN/
 _NCrunch*
 /images
 images/
+/bin
 bin/
+/obj
 obj/
